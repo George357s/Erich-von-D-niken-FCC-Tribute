@@ -1,144 +1,73 @@
 html {
-   font-size: 15px;
- }
- 
- body {
-   font-family: 'Roboto Slab', serif;
-   font-size: 1.6rem;
-   line-height: 1;
-   color: rgb(0, 0, 0);
-   margin: 0;
- }
- 
- h1 {
-   font-size: 4rem;
-   margin: 0;
-   text-align: center;
- }
- 
- @media (max-width: 560px) {
-   h1 {
-     font-size: 3.5rem;
-     line-height: 1.2;
-   }
-    img {
-      max-height: 350px
-    }
-    
-   #tribute-info {
-     font-size: 23px;
-     margin: 2px;
-     padding: 20px;
-   }
- }
- 
- h2 {
-   font-size: 1.5em;
-    text-align: center;
-    font-weight: 400;   
- }
- 
- a {
-   color: #477ca7;
-   text-decoration: none;
- }
- 
- a:visited {
-   color: #74638f;
- }
- 
- #main {
-   margin: 30px 8px;
-   padding: 15px;
-   border-radius: 5px;
-   background: #eee;
- }
- 
- @media (max-width: 460px) {
-   #main {
-     margin: 0;
-   }
- }
- 
-img {
-   max-width: 100%;
-   display: block;
-   height: auto;
-   margin: auto;
- }
- 
- #img-div {
-  background: rgb(255, 255, 255);
-   padding: 10px;
-   margin: 0;
- }
- 
- #img-caption {
-   text-align: center;
-   margin: 0.5em;
-   font-weight: 300;
- }
- 
- @media screen and (max-width: 460px) {
-   #img-caption {
-     font-size: 17px;
-     padding: 0 10px 0 10px;
-   }
-   p {
-     font-size: 25px;
-     margin: 0px;
-   }
-   blockquote {
-    font-size: 25px;
-   }
- }
-
- 
- #headline {
-   margin: 50px 0;
-   text-align: center;
-   font-size: 3rem;
- }
- 
- ul {
-   max-width: 550px;
-   margin: 0 auto 50px auto;
-   text-align: left;
-   line-height: 1.6;
- }
- 
- li {
-   margin: 16px 20px;
-   list-style: none;
-   text-align: center;   
+  text-align: center;
+  font: 15px roboto slab;
+  margin: 3px;
 }
- 
- blockquote {
-   font-style: italic;
-   max-width: 545px;
-   text-align: center;
-   margin: 2em;
-   font-weight: 300;
- }
- .book-header {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-left: 1.2em;
-    
- }
+.sub-header {
+  font-weight: 500;
+  font-size: 17px;
+  font-style: italic;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+figcaption {
+  font-size: 11px;
+  font-weight: 600;
+  font-style: italic;
+}
+#headline {
+  font-weight: 500;
+}
+#tribute-info {
+  font-weight: 300;
+  line-height: 1.4em;
+  margin: .4em;
+}
+.books {
+  background-color: rgb(168, 168, 168, .1);
+}
+.book-title {
+  font-style: italic;
+  font-size: 19px;
+  margin-bottom:  -6px;
+}
+.publisher {
+  font-size: smaller;
+}
+#kindle-img {
+  height: 28em;
+  width: auto;
+  border: 1px;
 
- #tribute-info {
-   text-align: center;
-   line-height: 1.4;
-   font-weight: 300;
- }
+}
+blockquote {
+  font-weight: 300;
+  font-size: 17px;
+  font-style: italic;
+}
 
- @media only screen and (min-width: 680px) {
-  ul {
-    display: grid;
-    grid-template-columns:auto;
-  }
-  p {
-    padding: 0 30px 0 30px;
-  }
- }
+@media only screen and (min-width: 920px){
+blockquote {
+  padding: 20px;
+  font-style: italic;
+}
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tribute {
+  margin: 0 115px 0 115px;
+}
+
+}
